@@ -205,24 +205,77 @@ footer a {
 
 /* Adattamento alla versione tablet / 'medium' */
 /* Nella versione 'medium' per tablet quindi per schermi più grandi di 576px il menu della navbar è inline-block e la tabella è centrata e non più allineata a sx*/
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 576px) {
+  body {
+    font-size: 1.5rem;
+  }
+
   header {
     font-size: 2rem;
   }
 
-  main {
-    font-size: 2rem;
-  }
-
   h1 {
-    font-size: 6rem;
+    font-size: 5rem;
   }
 
   h2 {
+    font-size: 1.3rem;
     font-weight: bold;
   }
 
   table {
-    margin: auto;
+    margin: 8rem 0;
+    margin-inline: auto;
+  }
+
+  article section h2 {
+    background-color: #a2a2a3;
+  }
+
+  footer address {
+    padding: 0 3rem;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  header {
+    width: 100%;
+    display: inline-block;
+    text-align: left;
+    padding: 1rem 0;
+    margin: 0;
+  }
+
+  header div {
+    display: inline-block;
+  }
+
+  header div img {
+    margin: 0;
+    vertical-align: middle;
+  }
+
+  header div p {
+    display: inline-block;
+    vertical-align: baseline;
+  }
+
+  header nav {
+    float: right;
+    margin: 1rem;
+  }
+
+  h2 {
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: 1.5rem;
+  }
+
+  main article p:nth-of-type(5) {
+    margin-top: 3rem;
+  }
+
+  main article table {
+    width: 75%;
   }
 }
