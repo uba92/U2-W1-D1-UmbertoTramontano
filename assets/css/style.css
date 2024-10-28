@@ -278,4 +278,33 @@ footer a {
   main article table {
     width: 75%;
   }
+
+  main article iframe {
+    width: 49%;
+    height: 300px;
+    display: inline-block;
+    vertical-align: bottom;
+  }
+
+  main article section {
+    width: 49%;
+    height: 300px;
+    display: inline-block;
+    vertical-align: bottom;
+  }
+
+  main aside {
+    text-align: center;
+  }
+
+  main aside div {
+    display: inline-block;
+    width: 32%;
+    height: 130px;
+    vertical-align: bottom;
+  }
+
+  footer {
+    font-size: 1.5rem;
+  }
 }
