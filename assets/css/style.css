@@ -308,3 +308,12 @@ footer a {
     font-size: 1.5rem;
   }
 }
+
+@media print {
+  header,
+  main section,
+  main aside,
+  footer {
+    display: none;
+  }
+}
