@@ -237,6 +237,9 @@ footer a {
   }
 }
 
+/* nella versione desktop, dai 768px in su l'header cambia layout, il logo, l'intestazione e il menu sono allineati*/
+/* la tabella ha una width maggiore, l'iframe di youtube e la section con il form per la newsletter sono allineati*/
+/* le tre sezioni contenute in aside sono allineate*/
 @media screen and (min-width: 768px) {
   header {
     width: 100%;
@@ -309,6 +312,7 @@ footer a {
   }
 }
 
+/* nella versione print della pagina non compaiono l'header, l'iframe di youtube, la section della newsletter e il footer*/
 @media print {
   header,
   main section,
